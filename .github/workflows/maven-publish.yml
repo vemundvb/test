@@ -34,7 +34,7 @@ jobs:
         if: always()
         with:
           name: Maven Tests
-          path: src/test/java
+          path: src/test/java/Check_If_Year_Is_Leap_Year
           reporter: java-junit
           fail-on-error: true
 
