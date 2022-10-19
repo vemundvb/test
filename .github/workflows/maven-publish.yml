@@ -30,7 +30,7 @@ jobs:
         if: always()
         with:
           name: Maven Tests
-          path: /report.xml
+          path: .github/workflows/report.xml
           reporter: java-junit
           fail-on-error: true
 
