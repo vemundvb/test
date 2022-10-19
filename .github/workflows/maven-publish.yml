@@ -26,4 +26,4 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Run unit tests
-      run: mvn clean test -Punit-test
+      run: mvn clean test -Ptest
