@@ -26,4 +26,4 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Run unit tests
-      run: mvn clean test -Ptest
+      run: mvn clean test -PCheck_If_Year_Is_Leap_Year
