@@ -27,6 +27,7 @@ jobs:
 
       - name: Report
         uses: dorny/test-reporter@v1
+        run: pwd
         if: always()
         with:
           name: Maven Tests
