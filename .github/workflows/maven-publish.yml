@@ -25,9 +25,12 @@ jobs:
       - name: Test
         run: mvn --batch-mode -Dmaven.test.failure.ignore=true test
 
+      - name: Where
+        run: ls -a
+
+
       - name: Report
         uses: dorny/test-reporter@v1
-        run: pwd
         if: always()
         with:
           name: Maven Tests
