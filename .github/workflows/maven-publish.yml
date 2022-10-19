@@ -30,7 +30,6 @@ jobs:
 
       - name: Report
         uses: dorny/test-reporter@v1
-        run: ls -a
         if: always()
         with:
           name: Maven Tests
